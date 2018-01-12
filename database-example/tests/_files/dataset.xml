@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4529
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.5.5-10.2.8-MariaDB)
+- Datenbank: test
+- Erstellt am Time: 2018-01-11 10:33:59 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="test">
+
+	<table_structure name="users">
+		<field field="id" type="int(10) unsigned" null="NO" key="PRI" extra="auto_increment" />
+		<field field="first_name" type="varchar(255)" null="NO" key="" extra="" />
+		<field field="last_name" type="varchar(255)" null="NO" key="" extra="" />
+		<field field="email" type="varchar(255)" null="NO" key="UNI" extra="" />
+		<field field="created_at" type="timestamp" null="YES" key="" extra="" />
+		<field field="updated_at" type="timestamp" null="YES" key="" extra="" />
+		<field field="deleted_at" type="timestamp" null="YES" key="" extra="" />
+
+		<options name="users" engine="InnoDB" version="10" row_format="Dynamic" rows="1" avg_row_length="16384" data_length="16384" max_data_length="0" index_length="16384" data_free="0" create_time="2018-01-11 08:36:35" update_time="2018-01-11 10:00:36" collation="utf8_general_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="users"></table_data>
+
+</database>
+</mysqldump>
